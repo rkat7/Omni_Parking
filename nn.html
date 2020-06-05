@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial;
+  color: white;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+.right {
+  right: 0;
+  background-color: #111;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+</style>
+</head>
+<body>
+
+<div class="split left">
+  
+<div class="header">
+  <h1>BEFORE PARKING</h1>
+</div>
+<video width="800" height="800" controls> 
+  <source src="Khare_testvideo_01.mp4" type="video/mp4">
+  <source src="Khare_testvideo_01.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+</div>
+
+<div class="split right">
+<div class="header">
+  <h1>AFTER PARKING</h1>
+</div>
+ <video width="800" height="800" controls>
+   <source src="v22.mp4" type="video/mp4">
+  <source src="v22.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+</div>
+     
+</body>
+</html> 

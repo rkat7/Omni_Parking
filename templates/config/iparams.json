@@ -1,1 +1,15 @@
-{}
+{
+ "freshdesk_api_key": {
+   "display_name": "Freshdesk API Key",
+   "description": "2k5NV6L2SMiGXJpmWrSE",
+   "type": "text",
+   "required": true,
+   "secure": true
+ },
+ "freshdesk_subdomain": {
+   "display_name": "Freshdesk Sub-domain",
+   "description": "rohithkattamuri",
+   "type": "text",
+   "required": true
+ }
+}

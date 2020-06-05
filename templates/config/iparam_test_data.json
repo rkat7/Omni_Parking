@@ -1,0 +1,4 @@
+{
+ "freshdesk_api_key": "<YOUR_FRESHDESK_API_KEY>",
+ "freshdesk_subdomain": "<YOUR_FRESHDESK_SUBDOMAIN>"
+}

@@ -1,4 +1,3 @@
-## 1. Let's build a simple app together 🎉
-
-In this tutorial, let us see how we can create a simple app that creates a ticket in Freshdesk based on user input.
-
+### About this folder
+This folder contains frontend related files.
+App, config, manifest help in running a customer support feature on the Freshdesk portal.   

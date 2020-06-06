@@ -1,6 +1,5 @@
 ### Automatic parking management 
 
-1. Images in Train folder can be utilized with the script I wrote for training a HAAR based classifier for all the images in the train folder.
 
 ![](Haarpark.gif)
 
@@ -10,3 +9,5 @@ Ipython Notebook should be treated as the 'main' program which calls uses all th
 To run clone the repository. Navigate to the folder through terminal. 
 Execute 
 $ python app.py
+
+For a brief demonstration, visit: https://youtu.be/YxuNacpJfeY
